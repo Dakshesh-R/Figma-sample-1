@@ -1,0 +1,942 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+body{
+    background-color: black;
+    width: 1440px;
+    height: 7554px;
+}
+
+.fontinter{
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 400;
+    color: white;
+}
+
+/* Header begin */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    width: 1440px;
+    height: 60px;
+    background-color: black;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo{
+    width: 52px;
+    height: 50px;
+    margin: 2px 0px 0px 24px;
+}
+
+#logosvg{
+    width: 52px;
+    height: 50px;
+    fill: none;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+#logosvg ellipse{
+    transform: rotate(45deg);
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 43px;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 16px;
+    transition: all 0.3s ease;
+}
+
+#navbar :hover{
+    opacity: 80%;
+    text-decoration: underline;
+    font-size: 85%;
+}
+
+#navbarspan{
+    position: absolute;
+    margin: -3px 0px 0px 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+
+    background: linear-gradient(to right, #ffffff, #c8b9f4);
+}
+
+#navbarspan p{
+    margin: 2.5px 0px 0px 5.5px;
+    font-weight: 700;
+    font-size: 10px;
+    color: black;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+    width: 80px;
+}
+
+#menu h6{
+    width: 48px;
+    height: 27px;
+    font-size: 18px;
+}
+
+#menusvg{
+    width: 21px;
+    height: 13px;
+}
+
+#menusvg line{
+    stroke: white;
+    stroke-width: 1px;
+}
+
+/* Header end */
+
+
+/* First div */
+
+.firstdiv{
+    position: absolute;
+    height: 810px;
+    width: 1440px;
+    background-color: black;
+}
+
+.firstdiv img{
+    position: absolute;
+    height: 810px;
+    width: 1008px;
+    top: 130px;
+    left: 432px;
+    object-fit: cover;
+}
+
+#div1text1{
+    width: 633px;
+    height: 300px;
+    position: absolute;
+    top: 255px;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1text1 div{
+    font-size: 94px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 500;
+    width: 630px;
+
+    position: relative;
+}
+
+#design_studio{
+    left: 115px;
+}
+
+#for_the{
+    left: 460px;
+    padding-right: 325px;
+}
+
+#web3_world{
+    left: 230px;
+    padding-right: 92px;
+}
+
+#div1text2{
+    position: absolute;
+    top: 723px;
+    width: 342px;
+    height: 50px;
+}
+
+#div1text2 p{
+    position: absolute;
+    width: 342px;
+    height: 50px;
+    margin: -5.5px 0px 0px 115px;
+    opacity: 60%;
+    font-size: 19px;
+}
+
+#div1text2svg{
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    margin-left: 24px;
+}
+
+#div1downarrow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+/* First div end */
+
+
+/* Second div */
+
+#seconddiv{
+    position: absolute;
+    margin-top: 810px;
+    height: 379px;
+    width: 1440px;
+    background-color: black;
+}
+
+#seconddiv h6{
+    position: absolute;
+    width: 245px;
+    height: 20px;
+    margin: 102px 0px 0px 115px;
+
+    font-size: 19px;
+    opacity: 60%;
+}
+
+#div2div{
+    position: absolute;
+    width: 1290px;
+    height: 139px;
+    margin: 143px 0px 0px 75px;
+    color: white;
+}
+
+#ycombinator{
+    position: absolute;
+    width: 242px;
+    height: 50px;
+    margin: 44px 0px 0px 40px;
+}
+
+#ycombinator text{
+    font-family: "fira Sans", arial;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+#combinator{
+    stroke: white;
+    stroke-width: 1px;
+    fill: white;
+}
+
+#coinbase{
+    position: absolute;
+    width: 242px;
+    height: 44px;
+    margin: 47px 0px 0px 362px;
+}
+
+#coinbase text{
+    fill: white;
+    font-size: 57px;
+    font-family: "Nunito Sans", "Inter", Arial;
+}
+
+#a16z{
+    position: absolute;
+    width: 242px;
+    height: 138px;
+    margin-left: 685px;
+}
+
+#blockchange{
+    position: absolute;
+    width: 242px;
+    height: 76px;
+    margin: 31px 0px 0px 1007px;
+    filter: invert(1);
+}
+
+/* Second div end */
+
+
+/* Third div */
+
+#thirddiv{
+    position: absolute;
+    width: 1440px;
+    height: 821px;
+    margin-top: 1189px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#thirddiv > img{
+    position: absolute;
+    margin: -120px 0px 0px 1140px;
+    transform: rotate(180deg);
+    object-fit: cover;
+}
+
+#whatisweb3studio{
+    position: absolute;
+    margin-top: 288px;
+    width: 720px;
+    height: 245px;
+    color: white;
+}
+
+#whatisweb3studio h1{
+    width: 360px;
+    height: 36px;
+    margin: 3px 0px 0px 115px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#whatisweb3studio p{
+    width: 539px;
+    height: 140px;
+    margin: 84px 0px 0px 115px;
+    font-size: 19px;
+}
+
+#div3loop{
+    position: absolute;
+    width: 720px;
+    height: 245px;
+    margin: 288px 0px 0px 720px;
+}
+
+#textinfinite{
+    position: absolute;
+    width: 594px;
+    height: 217px;
+    padding: 0px 62px;
+}
+
+.infinity-symbol{
+    position: absolute;
+    width: 720px;
+    height: 217px;
+    display: flex;
+}
+
+#textinfinite text{
+    font-family: "Inter", "Sans-serif";
+    stroke: white;
+    stroke-width: 1px;
+    fill: white;
+    opacity: 60%;
+}
+
+/* Third div end */
+
+
+/* Fourth div */
+
+#fourthdiv{
+    position: absolute;
+    width: 1440px;
+    height: 1290px;
+    margin: 2125px 0px 0px 0px;
+
+    background-color: black;
+}
+
+#fourthdiv h1{
+    width: 434px;
+    height: 120px;
+    margin: 12px 0px 0px 40px;
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 111px;
+}
+
+#fourthdiv div{
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+#div4div{
+    padding: 0px 40px;
+    margin: 212px 0px 0px 0px;
+    height: 1078px;
+    width: 680px;
+
+    flex-direction: column;
+}
+
+#fourthdiv img{
+    position: absolute;
+}
+
+#casestudy-01{
+    width: 668px;
+    height: 430px;
+    object-fit: cover;
+}
+
+#casestudy-03{
+    width: 668px;
+    height: 409px;
+    margin: 454px 0px 0px 0px;
+    object-fit: cover;
+}
+
+#div4span{
+    position: absolute;
+    margin: 887px 0px 0px 0px;
+    width: 668px;
+    height: 172px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+#div4span2{
+    position: relative;
+    width: 620px;
+    height: 92px;
+    margin: 40px 0px 0px 24px;
+    padding: 0px 103px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#div4span2 h2{
+    font-size: 35px;
+}
+
+#comingsoon{
+    background-color: black;
+    border-radius: 50px;
+    width: 126px;
+    height: 36px;
+}
+
+#comingsoon p{
+    width: 98px;
+    height: 16px;
+    margin: 10px 0px 0px 14px;
+
+    font-size: 16px;
+}
+
+#div4span p{
+    display: flex;
+    width: 98px;
+    height: 16px;
+    margin: 10px 0px 0px 14px;
+
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+#casestudy-02{
+    height: 668px;
+    width: 677px;
+    margin: 0px 0px 0px 12px;
+    object-fit: cover;
+}
+
+#casestudy-04{
+    width: 668px;
+    height: 353px;
+    margin: 701px 0px 0px 12px;
+    object-fit: cover;
+}
+
+/* Fourth div end */
+
+
+/* Fifth div */
+
+#fifthdiv{
+    position: absolute;
+    width: 1440px;
+    height: 761px;
+    margin: 3588px 0px 0px 0px;
+    background-color: black;
+}
+
+#fifthdiv h1{
+    position: absolute;
+    height: 144px;
+    width: 784px;
+    margin: 0px 0px 0px 24px;
+
+    font-weight: 500;
+    font-size: 114px;
+}
+
+#div5div1{
+    position: absolute;
+    height: 549px;
+    width: 1440px;
+    margin: 212px 0px 0px 0px;
+}
+
+#div5div2{
+    position: relative;
+    height: 348px;
+    width: 1440px;
+    overflow: hidden;
+}
+
+#div5img{
+    position: relative;
+    width: 7808px;
+    height: 348px;
+    margin: 0px 0px 0px -1464px;
+}
+
+#div5img img{
+    width: 464px;
+    height: 348px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#other01{
+    margin: 0px 0px 0px 1464px;
+}
+
+#other03{
+    margin: 0px 0px 0px 1952px;
+}
+
+#other04{
+    margin: 0px 0px 0px 2440px;
+}
+
+/* Fifth div end */
+
+
+
+/* Sixth div */
+
+#sixthdiv{
+    position: absolute;
+    width: 1440px;
+    height: 1325px;
+    margin: 4464px 0px 0px 0px;
+
+    background-color: black;
+}
+
+#div6img1{
+    position: absolute;
+    width: 330px;
+    height: 1009px;
+    margin-top: 500px;
+    overflow: hidden;
+}
+
+#div6design{
+    position: absolute;
+    width: 1440px;
+    height: 586px;
+    overflow: hidden;
+}
+
+#div6designline{
+    position: absolute;
+    width: 1600px;
+    height: 704px;
+    margin-top: -60px;
+}
+
+#div6designline polyline{
+    stroke: white;
+    stroke-width: 0.83px;
+    fill: none;
+}
+
+#div6designshape{
+    position: absolute;
+    width: 1600px;
+    height: 586px;
+}
+
+#div6designshape path{
+    stroke: #353535;
+    stroke-width: 0.83px;
+    fill: none;
+}
+
+#sixthdiv h1{
+    position: absolute;
+    width: 667px;
+    height: 238px;
+    margin: 696px 0px 0px 67px;
+
+    font-weight: 500;
+    font-size: 114px;
+}
+
+#div6div1{
+    position: absolute;
+    width: 1440px;
+    height: 288px;
+    margin: 1037px 0px 0px 0px;
+}
+
+#div6div1a{
+    position: absolute;
+    width: 398px;
+    height: 258px;
+    margin: 0px 0px 0px 115px;
+}
+
+#div6div1a h1{
+    position: absolute;
+    width: 418px;
+    height: 86px;
+    margin: 0px 0px 0px -20px;
+    padding: 16px 170px 16px 0px;
+    font-size: 36px;
+}
+
+#div6div1a h2, h3{
+    position: absolute;
+    font-size: 35px;
+    opacity: 60%;
+}
+
+#div6div1a h2{
+    margin: 111px 0px 0px 0px;
+}
+
+#div6div1a h3{
+    
+    margin: 197px 0px 0px 0px;
+}
+
+#div6div1b{
+    position: absolute;
+    width: 795px;
+    height: 288px;
+    margin: 0px 0px 0px 529px;
+}
+
+#div6div1b > img{
+    position: absolute;
+    width: 318px;
+    height: 222px;
+    margin: 20px 0px 0px 0px;
+}
+
+#div6div1ba{
+    position: absolute;
+    width: 398px;
+    height: 248px;
+    margin: 20px 0px 0px 398px;
+    overflow: hidden;
+}
+
+#div6div1ba h1{
+    position: absolute;
+    width: 387px;
+    height: 90px;
+    margin: 3px 0px 0px 0px;
+
+    font-size: 26px;
+}
+
+#div6div1ba ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 96px;
+    margin: 136px 0px 0px 0px;
+    padding: 0px 135px 0px 20px;
+
+    list-style-type: none;
+}
+
+#div6div1ba li{
+    font-size: 26px;
+    opacity: 60%;
+}
+
+/* Sixth div end */
+
+
+
+/* Seventh div */
+
+#seventhdiv{
+    position: absolute;
+    width: 1440px;
+    height: 404px;
+    margin: 6135px 0px 0px 0px;
+
+    background-color: black;
+}
+
+#seventhdiv h1{
+    position: absolute;
+    margin: 12px 0px 0px 460px;
+    font-weight: 500;
+    font-size: 115px;
+}
+
+#aboutdiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 660px;
+    height: 252px;
+    margin: 152px 0px 0px 460px;
+    padding: 0px 40px 0px 0px;
+}
+
+#aboutdiv p{
+    height: 180px;
+    width: 618px;
+    font-size: 26px;
+    opacity: 60%;
+}
+
+#moreaboutus{
+    width: 620px;
+    height: 52px;
+}
+
+#moreaboutdus h2, a{
+    text-decoration: none;
+}
+
+#moreaboutus h2{
+    position: absolute;
+    width: 178px;
+    height: 39px;
+    margin-top: 13px;
+    font-size: 26px;
+}
+
+#moreaboutus div{
+    position: absolute;
+    width: 38px;
+    height: 40px;
+    margin: 10px 0px 0px 189px;
+}
+
+#moreaboutus svg{
+    stroke: white;
+    stroke-width: 1px;
+    fill: none;
+}
+
+#seventhdiv img{
+    position: absolute;
+    object-fit: cover;
+}
+
+#about01{
+    width: 230px;
+    height: 345px;
+    margin: 11px 0px 0px 115px;
+}
+
+#about02{
+    width: 288px;
+    height: 191px;
+    margin: 507px 0px 0px 460px;
+}
+
+#about03{
+    width: 230px;
+    height: 343px;
+    margin: 235px 0px 0px 1094px;
+    z-index: 2;
+}
+
+#seventhdiv path{
+    stroke: #353535;
+    stroke-width: 1px;
+    fill: none;
+}
+
+#div7div1{
+    position: absolute;
+    width: 286px;
+    height: 287px;
+    margin: -172px 0px 0px 1038px;
+}
+
+#div7div2{
+    position: absolute;
+    width: 287px;
+    height: 287px;
+    margin: 389px 0px 0px 1129px;
+}
+
+#div7div3{
+    position: absolute;
+    width: 414px;
+    height: 414px;
+    margin: 270px 0px 0px -368px;
+}
+
+/* Seventh div ends */
+
+
+
+/* Eighth div */
+
+#eighthdiv{
+    position: absolute;
+    width: 1440px;
+    height: 554px;
+    margin: 7000px 0px 0px 0px;
+    overflow: hidden;
+
+    background-color: black;
+}
+
+#eighthdiv > img{
+    position: absolute;
+    width: 830px;
+    height: 1009px;
+    top: -365px;
+    left: 890px;
+    transform: rotate(-90deg);
+    overflow: hidden;
+}
+
+#div8div1{
+    position: absolute;
+    width: 473px;
+    height: 238px;
+    margin: 143px 0px 0px 24px;
+    padding: 0px 0px 7px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#div8div1 div{
+    width: 473px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+}
+
+#div8div1 h1{
+    font-weight: 500;
+    font-size: 47px;
+}
+
+#div8div1 p{
+    font-size: 19px;
+    opacity: 60%;
+}
+
+#div8div1 a{
+    margin: -6px 0px 0px 0px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+#div8div2{
+    position: absolute;
+    width: 442px;
+    height: 237px;
+    margin: 144px 0px 0px 613px;
+    padding: 0px 0px 0px 115px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#div8div2 ul{
+    height: 145px;
+    width: 117px;
+    padding: 32px 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#div8div2 a{
+    opacity: 60%;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Inter", "sans-serif";
+    color: white;
+}
+
+#div8div2a{
+    width: 117px;
+    height: 237px;
+}
+
+#div8div2a h6{
+    font-size: 20px;
+}
+
+
+
+#div8div2b{
+    width: 94px;
+    height: 237px;
+}
+
+#div8div2b h6{
+    font-size: 19px;
+}
+
+#div8div3{
+    position: absolute;
+    width: 40px;
+    height: 46px;
+    margin: 144px 0px 0px 1376px;
+    padding: 0px 0px 7px 0px;
+}
+
+#div8div3 h6{
+    position: absolute;
+    width: 20px;
+    height: 106px;
+    margin-left: -20px;
+    transform: rotate(90deg);
+    font-size: 13px;
+    opacity: 30%;
+    text-decoration: none;
+}
+
+#div8div3 svg{
+    stroke: white;
+    stroke-width: 1px;
+    fill: none;
+}
